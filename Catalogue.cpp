@@ -65,7 +65,7 @@ void Catalogue::SaisirTrajetCompose()
             cout << "Moyen de transport (0: auto, 1: bus, 2: avion, 3: train, 4: bateau) : ";
             cin >> choix;
         }
-        conteneur->Ajouter(new TrajetSimple(prov, dest, moyen));
+        conteneur->Ajouter(new TrajetSimple(prov, dest, moyen ));
         }
     }
 }
