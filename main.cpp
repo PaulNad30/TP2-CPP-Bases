@@ -40,7 +40,7 @@ int main() {
                 }
                 break;
             case 2:
-                cout << "Afficher les trajets" << endl;
+                catalogue.Afficher();
                 break;
             case 3:
                 cout << "Rechercher un trajet" << endl;
@@ -50,6 +50,5 @@ int main() {
                 break;
         }
     }
-
     return 0;
 }
